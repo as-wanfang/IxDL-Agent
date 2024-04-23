@@ -9,4 +9,5 @@ This study investigates the application of LLMs in generating designs for intera
 ## Supplementary Materials
 
 - general rules.py: The general rules fed to the system role in OPENAI's chat.completions API.
-- dataset.json: The 24 cases in the training dataset, each case contains case_description, item tables, and mapping tables that fully defines a specific interaction technique.
+- dataset_train.json: The 24 cases in the training dataset, each case contains case_description, item tables, and mapping tables that fully define a specific interaction technique.
+- dataset_test.json: The 3 cases in the testing dataset for evaluating IxDL agent's performance.
